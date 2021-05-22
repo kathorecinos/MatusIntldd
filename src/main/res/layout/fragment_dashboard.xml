@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.matusintl.Activitys.dashboardFragment">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/carduser"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_margin="30dp"
+        android:background="@color/colorPrimary"
+        android:elevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp" />
+
+        <!-- Title, secondary and supporting text -->
+        <TextView
+            android:id="@+id/nameUserImport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="25dp"
+            android:text="username"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+        <TextView
+            android:id="@+id/importname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="50dp"
+            android:text="importNameCorp"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textColor="?android:attr/textColorSecondary" />
+
+        <TextView
+            android:id="@+id/mail2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="70dp"
+            android:text="correo"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textColor="?android:attr/textColorSecondary" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardnotification"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorPrimary"
+        android:elevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp" />
+
+        <!-- Title, secondary and supporting text -->
+        <TextView
+            android:id="@+id/notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Notificación Matus"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+        <TextView
+            android:id="@+id/notificationtext"
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:gravity="start"
+            android:text="Estimado cliente le comentamos que el cambio de horario de Verano a invierno sera este Domingo 14 de Marzo. En Matus International trabajamos para ti."
+            android:textAlignment="viewStart"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textColor="?android:attr/textColorSecondary" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</FrameLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:visible="true" />
+
+    <item
+        android:id="@+id/inicio"
+        android:contentDescription="@string/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/inicio" />
+    <item
+        android:id="@+id/usuario"
+        android:contentDescription="@string/user"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_people_alt_24"
+        android:title="@string/Usuario" />
+    <item
+        android:id="@+id/Tracking"
+        android:contentDescription="@string/Tracking"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_car_repair_24"
+        android:title="Tracking" />
+    <item
+        android:id="@+id/gallery"
+        android:contentDescription="@string/gallery"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_image_search_24"
+        android:title="Galleria" />
+    <item
+        android:id="@+id/history"
+        android:contentDescription="history"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_history_24"
+        android:title="Historial" />
+
+</menu>
